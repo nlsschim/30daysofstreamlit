@@ -1,39 +1,20 @@
 import streamlit as st
-import seirsplus
 
-import numpy as np
-import itertools
-# seirsplus libraries
-from seirsplus.models.preconfig_disease_models import *
-from seirsplus.networks import *
-from seirsplus import utils
-from seirsplus.sim_loops import *
-from seirsplus import scenarios
+st.header('Data Science and Machine Learning resources')
 
-st.header('SEIRS+ Wrappers')
+st.subheader('Kaggle resources')
+st.write('XGBoost, Feature Engineering, and Feature selection: [link](https://www.kaggle.com/competitions/foursquare-location-matching/discussion/321992)')
 
-option = st.selectbox(
-    'Which wrapper would you like to run?',
-    ('', 'Community Scenario', 'Intervention Scenario', 'Primary School Scenario', 'Secondary School Scenario')
-)
+st.subheader('Free textbooks')
 
-
-if option == 'Community Scenario':
-    community_results, community_caselogs = scenarios.run_SARSCoV2_community_scenario()
-    st.write('Community results:')
-    st.write(community_results)
-
-if option == 'Intervention Scenario':
-    interventions_results, interventions_caselogs = scenarios.run_SARSCoV2_interventions_scenario()
-    st.write('Interventions results')
-    st.write(interventions_results)
-
-if option == 'Primary School Scenario':
-    primary_school_results, primary_school_caselogs = scenarios.run_SARSCoV2_primary_school_scenario()
-    st.write('Primary School results')
-    st.write(primary_school_results)
-
-if option == 'Secondary School Scenario':
-    secondary_school_results, secondary_school_caselogs = scenarios.run_SARSCoV2_secondary_school_scenario()
-    st.write('Secondary School results')
-    st.write(secondary_school_results)
+st.write('Deep Learning eBook: [link](https://www.deeplearningbook.org/)')
+st.write('Dive into Deep Learning eBook: [link](https://d2l.ai/)')
+st.write('Machine Learning Engineering eBook: [link](http://www.mlebook.com/wiki/doku.php)')
+st.write('Python Data Science Handbook eBook: [link](https://jakevdp.github.io/PythonDataScienceHandbook/)')
+st.write('Probabilistic Machine Learning eBook: [link](https://probml.github.io/pml-book/book1.html)')
+st.write('Data-Centric MLOps, Andrew Ng: [link](https://www.deeplearning.ai/wp-content/uploads/2021/06/MLOps-From-Model-centric-to-Data-centric-AI.pdf)')
+st.write('AI Notes from deeplearning.ai: [link](https://www.deeplearning.ai/ai-notes/)')
+st.write('100 Free Online Data Science Textbooks: [link](https://www.datakwery.com/source/resources/)')
+st.write('Fast.ai Numerical Linear Algebra course: [link](https://github.com/fastai/numerical-linear-algebra#table-of-contents)')
+st.write('Fast.ai Introduction to Deep Learning: [link](https://github.com/fastai/fastbook)')
+st.write('Data Science and Machine Learnin projects mega compilation: [link](https://medium.com/coders-mojo/data-science-and-machine-learning-projects-mega-compilation-part-5-e50baa2faa85)')
