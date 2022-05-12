@@ -18,3 +18,9 @@ st.write('100 Free Online Data Science Textbooks: [link](https://www.datakwery.c
 st.write('Fast.ai Numerical Linear Algebra course: [link](https://github.com/fastai/numerical-linear-algebra#table-of-contents)')
 st.write('Fast.ai Introduction to Deep Learning: [link](https://github.com/fastai/fastbook)')
 st.write('Data Science and Machine Learnin projects mega compilation: [link](https://medium.com/coders-mojo/data-science-and-machine-learning-projects-mega-compilation-part-5-e50baa2faa85)')
+
+st.subheader('Statistics resources')
+st.write('Penn State Stats Online courses: [link](https://online.stat.psu.edu/statprogram/)')
+st.write('Brandon Foltz statistics Youtube: [link](https://www.youtube.com/c/BrandonFoltz/playlists)')
+st.write('Ben Lambert statistics Youtube: [link](https://www.youtube.com/user/SpartacanUsuals/playlists)')
+st.write('Udacity Introduction to A/B testing free course: [link](https://www.udacity.com/course/ab-testing--ud257)')
